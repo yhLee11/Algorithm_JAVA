@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solution {
+class prog_카카오프렌즈_컬러링북 {
     static int[] dx={0,0,1,-1};
     static int[] dy={1,-1,0,0};
     static class Point{
@@ -11,7 +11,7 @@ class Solution {
             this.y=y;
         }
     }
-    public int[] 카카오프렌즈_컬러링북(int m, int n, int[][] picture) {
+    public int[] solution(int m, int n, int[][] picture) {
         int area = 0;
         int maxSize = 0;
         boolean[][] visit=new boolean[m][n];
