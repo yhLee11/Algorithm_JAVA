@@ -12,7 +12,7 @@ public class boj_2343 {
         lesson = new int[n];
 
         arr = br.readLine().split(" ");
-        
+
         int max=0;
         for (int i = 0; i < n; i++) {
             lesson[i] = Integer.parseInt(arr[i]);
