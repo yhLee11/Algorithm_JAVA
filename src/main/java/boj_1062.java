@@ -1,5 +1,4 @@
 import java.io.*;
-import java.util.Arrays;
 
 public class boj_1062 {
     static int N,K;
